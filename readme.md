@@ -118,7 +118,7 @@ Wyniki powinny zawierać, następujące kolumny:
 - `ets3` - czas lądowania
 
 ## Zadanie 7
-Każde z lotnisk chce wyszukiwać niepokojące warunki pogodowe. Analitycy uważają, za niepokojące sytuacje, które rozpoczynają się od lądowania przy prędkości wiatru większej niż `50 km/h` podczas gdy niebo jest w pełni zachmurzone (`OVC`) (A). Następnie ma miejsce seria lądowań, w czasie których prędkość wiatru jest większa od lądowania rozpoczynającego niepokojącą sytuację a niebo nadal pozostaje w pełni zachmurzone (`OVC`) (B). Ostatecznie niebezpieczna sytuacja kończy się lądowaniem (C) przy prędkości wiatru mniejszej od prędkości wiatru w zanotowanej podczas pierwszego lądowania.
+Każde z lotnisk chce wyszukiwać niepokojące warunki pogodowe. Analitycy uważają za niepokojące sytuacje, które rozpoczynają się od lądowania przy prędkości wiatru większej niż `50 km/h` podczas gdy niebo jest w pełni zachmurzone (`OVC`) (A). Następnie ma miejsce seria lądowań, w czasie których prędkość wiatru jest większa od lądowania rozpoczynającego niepokojącą sytuację a niebo nadal pozostaje w pełni zachmurzone (`OVC`) (B). Ostatecznie niebezpieczna sytuacja kończy się lądowaniem (C) przy prędkości wiatru mniejszej od prędkości wiatru zanotowanej podczas pierwszego lądowania.
 
 Wyniki powinny zawierać, następujące kolumny:
 - `airport` - nazwę (kod) lotniska
