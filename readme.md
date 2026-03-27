@@ -68,7 +68,7 @@ FROM FlightEvent#ext_timed(java.sql.Timestamp.valueOf(its).getTime(), 3 sec);
 ## Zadanie 1
 Utrzymuj informację o różnorodności maszyn we flocie danej linii lotniczej 
 (liczbie różnych typów maszyn, których lądowania zostały zarejestrowane). 
-Agreguj informacje z ostatniej minuty.
+Agreguj informacje zarejestrowane w ciągu ostatniej minuty.
 
 Wyniki powinny zawierać następujące kolumny:
 - `airline` - nazwę linii lotniczej
@@ -101,10 +101,10 @@ Wyniki powinny zawierać, następujące kolumny:
 
 ## Zadanie 4
 Utrzymywane dwie listy. Na pierwszej liście mamy 10 lotnisk, na których 
-w ciągu ostatniej minuty dokonano największej liczby lądowań w bardzo 
+w ciągu ostatniej minuty zarejestrowano największą liczby lądowań w bardzo 
 dużym zachmurzeniu (zachmurzenie równe BKN lub OVC). 
 Na drugiej liście utrzymywanych jest 10 lotnisk, na których w ciągu 
-ostatniej minuty dokonano największej liczby lądowań przy dużej sile 
+ostatniej minuty zarejestrowano największą liczby lądowań przy dużej sile 
 wiatru (powyżej 140 km/h).
 Znajduj te lotniska, które znalazły się na obu listach. 
 
