@@ -108,6 +108,10 @@ ostatniej minuty zarejestrowano największą liczby lądowań przy dużej sile
 wiatru (powyżej 140 km/h).
 Znajduj te lotniska, które znalazły się na obu listach. 
 
+W przypadku "remisów" (tej samej liczby lądowań) stosuj porządek 
+oparty na nazwie (kodzie) lotniska. Pozwoli to zachować determinizm tego 
+które lotniska znajdą się na listach "top10".  
+
 Wyniki powinny zawierać, następujące kolumny:
 - `airport` - nazwę (kod) lotniska
 - `cloud_landings` - liczbę lądowań w bardzo dużym zachmurzeniu
@@ -130,9 +134,10 @@ Wyniki powinny zawierać, następujące kolumny:
 Znajduj 3 następujące po sobie (niekonieczne bezpośrednio) lądowania 
 samolotów marki `Spitfire`, które odbyły się przy wietrze silniejszym 
 niż `70km/h`. Ogranicz znalezione trójki zdarzeń do takich, pomiędzy 
-którymi nie odbyło się żadne lądowanie przy wietrze słabszym niż `40km/h`. 
-Zapewnij także, aby pomiędzy zdarzeniem pierwszym i trzecim nie minęło 
-więcej niż `90 sekund`.
+którymi nie odbyło się żadne (dowolnej marki) lądowanie przy wietrze 
+o sile mniejszej niż `40km/h`. 
+Zapewnij także, aby pomiędzy czasem rejestracji pierwszego i trzeciego 
+zdarzenia nie minęło więcej niż `90 sekund`.
 
 Wyniki powinny zawierać, następujące kolumny:
 - `aircraft1` - nazwę (typ) samolotu
