@@ -102,7 +102,7 @@ Wyniki powinny zawierać, następujące kolumny:
 ## Zadanie 4
 Utrzymywane dwie listy. Na pierwszej liście mamy 10 lotnisk, na których 
 w ciągu ostatniej minuty zarejestrowano największą liczby lądowań w bardzo 
-dużym zachmurzeniu (zachmurzenie równe BKN lub OVC). 
+dużym zachmurzeniu (zachmurzenie równe `BKN` lub `OVC`). 
 Na drugiej liście utrzymywanych jest 10 lotnisk, na których w ciągu 
 ostatniej minuty zarejestrowano największą liczby lądowań przy dużej sile 
 wiatru (powyżej 140 km/h).
