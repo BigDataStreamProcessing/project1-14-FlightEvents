@@ -152,7 +152,8 @@ Wyniki powinny zawierać, następujące kolumny:
 
 ## Zadanie 7
 Każde z lotnisk chce wyszukiwać niepokojące warunki pogodowe. 
-Analitycy uważają za niepokojące sytuacje, które rozpoczynają się od 
+Analitycy uważają za niepokojące sytuacje, które w ramach zdarzeń 
+obejmujących dane lotnisko, rozpoczynają się od 
 lądowania przy prędkości wiatru większej niż `50 km/h` podczas gdy niebo 
 jest w pełni zachmurzone (`OVC`) (A). Następnie ma miejsce seria lądowań, 
 w czasie których prędkość wiatru jest większa od lądowania rozpoczynającego 
